@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(236, 240, 241);
+    font-family: Candara ;
+}
+
+
+.navbar{
+  list-style-type: none;
+  background: rgb(118, 170, 184);
+  width: 130%;
+  overflow: hidden;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.navbar li {
+display: inline-block;
+padding: 10px;
+
+}
+.navbar li a{
+text-decoration: none;
+color: white;
+background: rgb(118, 170, 184);
+padding: 26px;
+
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+    background: rgb(70, 124, 138);
+    
+    }
+    /*
+.container{
+ 
+    justify-content: center;
+ 
+}*/
+/* grid*/
+/*.item1 { grid-area: train1;}
+.item2 { grid-area: train2;}
+.item3 { grid-area: train3;}
+.item4 { grid-area: train4;}
+
+.main {
+  width: 100%;
+  height: auto;
+  display: grid;
+
+  grid-template-areas:
+    'train1 train1 train2 train2 train3 train3 train4 train4';
+  grid-row-gap: 10px;
+ 
+ 
+  
+ 
+}
+
+
+
+.train1 {
+margin-left: 20px;
+border-radius: 20px;
+border: 2px solid white;
+height: 500px;
+display: grid;
+
+}
+
+.train2 {
+margin-left: 20px;
+border-radius: 20px;
+border: 2px solid white;
+height: 500px;
+display: grid;
+
+}
+.train3 {
+margin-left: 20px;
+border-radius: 20px;
+border: 2px solid white;
+height: 500px;
+
+
+}
+.train4 {
+margin-left: 20px;
+border-radius: 20px;
+border: 2px solid white;
+height: 500px;
+
+}*/
+img {
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* wrap*/
+.box {
+    background: none;
+    padding: 20px 20px 20px 20px;
+   
+   
+  }
+  .wrapper {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap:6px;
+   
+  }
